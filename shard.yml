@@ -1,0 +1,18 @@
+name: glitchit
+version: 0.1.0
+
+authors:
+  - Cristian Guerrero <cristian@s9.cl>
+
+targets:
+  glitchit:
+    main: src/glitchit.cr
+
+crystal: 0.24.1
+
+license: MIT
+
+dependencies:
+  commander:
+    github: mrrooijen/commander
+    version: ~> 0.3.3
